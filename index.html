@@ -1,15 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Agustin Galvan</title>
-    <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portafolio - Agustin Galvan</title>
+        <link rel="stylesheet" href="public/assets/css/customs.min.css" />
+    </head>
+    <body>
+        <header class="bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    <a class="navbar-brand" href="/"
+                        ><img
+                            class="border rounded-circle"
+                            src="public/assets/images/duck.png"
+                            alt="Logotipo"
+                            width="48"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="true"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#sobre-mi"
+                                    >Sobre mi</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyectos"
+                                    >Proyectos</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto"
+                                    >Contacto</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="container my-3 ">
+          <div class="row vh-100">
+            <div class="col-6 d-flex flex-column justify-content-center">
+              <h1 class="my-3">Soy el diseñador de mi propio Universo</h1>
+              <button class="btn btn-primary w-25">Ver más</button>
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center">
+              <img class="mw-100" src="https://agustingalvan.netlify.app/assets/img/starry_window_ppm0.svg" width="300" alt="imagen">
+            </div>
+          </div>
+        </main>
+        <div class="bg-dark text-light py-4">
+          <section class="container " id="sobre-mi">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <h2 class="">Sobre mi</h2>
+                <img class="border border-3 rounded-circle my-3" src="https://agustingalvan.netlify.app/assets/img/CARICATURA.jpeg" alt="iamgen" width="100">
+                <p class="text-center">Hola! mi nombre es Agustin Galvan. Estoy estudiando Desarrollo Web y Diseño 3D de forma autodidacta. Ubicado en Argentina. Actualmente me encuentro Desarrollando proyectos para mejor mis skills.</p>
+              </div>
+              <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <h2>Skills</h2>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Node</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
 
-  
-    <script src="public/assets/js/bootstrap.bundle.min.js"></script>
-</body>
+        <div class="container my-3">
+          <div class="row py-3">
+            <h2 class="text-center">Proyectos</h2>
+            <div class="col-4">
+              <h3>Futuros proyectos</h3>
+            </div>
+            <div class="col-4">
+              <h3>Futuros proyectos</h3>
+            </div>
+            <div class="col-4">
+              <h3>Futuros proyectos</h3>
+            </div>
+          </div>
+        </div>
+        <footer class="bg-primary footer py-4">
+          <h3 class="m-0">Contacto</h3>
+          <p class="m-0">Portafolio hecho para repasar bootstrap .)</p>
+        </footer>
+        <script src="public/assets/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

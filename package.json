@@ -1,0 +1,22 @@
+{
+  "name": "portafolio-frontend",
+  "version": "1.0.0",
+  "description": "Portafolio frontend para el curso de Argentina Programa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusstingalvan/portafolio-Frontend.git"
+  },
+  "author": "Agustin Galvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusstingalvan/portafolio-Frontend/issues"
+  },
+  "homepage": "https://github.com/agusstingalvan/portafolio-Frontend#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
